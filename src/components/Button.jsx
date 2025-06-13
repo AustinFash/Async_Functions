@@ -8,7 +8,7 @@ function Button() {
     };
 
     return(
-        <button onClick={toggleColor} style={{ color }}>{color}</button>
+        <button onClick={toggleColor} style={{ color, backgroundColor: "white" }}>{color}</button>
     );
 }
 
